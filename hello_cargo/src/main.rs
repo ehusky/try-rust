@@ -1,6 +1,6 @@
 use std::io;
 
-fn in_output() {
+fn guess_num() {
     println!("Guess the number!");
     let mut guess = String::new();
     io::stdin().read_line(&mut guess)
@@ -10,6 +10,6 @@ fn in_output() {
 
 fn main() {
     println!("Hello, world!");
-    in_output();
+    guess_num();
     return();
 }
